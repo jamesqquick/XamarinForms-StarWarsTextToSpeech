@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{964B95DF-ADC9-4F99-B2F2-67F7FDEF5769}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>StarWarsTextToSpeech</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)StarWarsTextToSpeech.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Home.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITextToSpeech.cs" />
+  </ItemGroup>
+</Project>
